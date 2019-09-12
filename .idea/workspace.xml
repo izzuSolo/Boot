@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="eadc8b57-8328-463b-abef-32efd559bef6" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/SpringBoot/learn/topic/TopicController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/SpringBoot/learn/topic/TopicController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -44,6 +45,9 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../sweater" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
     <key name="CreateClassDialog.RecentsKey">
       <recent name="io.SpringBoot.learn" />
     </key>
@@ -94,7 +98,8 @@
       <workItem from="1568127283043" duration="1694000" />
       <workItem from="1568131288730" duration="1345000" />
       <workItem from="1568132723343" duration="1400000" />
-      <workItem from="1568191986521" duration="6249000" />
+      <workItem from="1568191986521" duration="7705000" />
+      <workItem from="1568298824256" duration="1116000" />
     </task>
     <servers />
   </component>
