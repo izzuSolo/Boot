@@ -2,12 +2,13 @@ package io.SpringBoot.learn.topic;
 
 import org.springframework.stereotype.Service;
 
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
 @Service
 public class TopicService {
-    private List<Topic> arrayTopic = Arrays.asList(new Topic("Spring", "Framework", "Description"), new Topic("Java", "1.8", "Core"));
+    private List<Topic> arrayTopic = new ArrayList<>(Arrays.asList(new Topic("Spring", "Framework", "Description"), new Topic("Java", "1.8", "Core")));
 
     public List<Topic> getTopics(){
         return arrayTopic;
@@ -15,5 +16,9 @@ public class TopicService {
 
     public Topic getTopic(String id){
         return arrayTopic.stream().filter(t -> t.getId().equals(id)).findFirst().get();
+    }
+
+    public void addTopic(Topic topic) {
+        arrayTopic.add(topic);
     }
 }
