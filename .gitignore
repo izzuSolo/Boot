@@ -1,7 +1,6 @@
 # Default ignored files
 *.class
 *.jar
-target
-.idea
+target/
+.idea/
 .properties
-workspace.xml
