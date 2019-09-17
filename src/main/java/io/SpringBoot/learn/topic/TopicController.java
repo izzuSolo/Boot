@@ -14,7 +14,6 @@ public class TopicController {
 
     @RequestMapping("/topics")
     public List<Topic> getAllTopics(){
-
         return topicService.getTopics();
     }
 
@@ -37,5 +36,4 @@ public class TopicController {
     public void deleteTopic(@PathVariable String id){
         topicService.deleteTopic(id);
     }
-
 }
