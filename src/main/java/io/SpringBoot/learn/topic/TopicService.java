@@ -8,6 +8,9 @@ import java.util.List;
 
 @Service
 public class TopicService {
+
+    private TopicRepository topicRepository;
+
     private List<Topic> arrayTopic = new ArrayList<>(Arrays.asList(new Topic("Spring", "Framework", "Description"), new Topic("Java", "1.8", "Core")));
 
     public List<Topic> getTopics(){
