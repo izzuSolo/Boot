@@ -1,5 +1,6 @@
 package io.SpringBoot.learn.topic;
 
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
@@ -9,12 +10,16 @@ import java.util.List;
 @Service
 public class TopicService {
 
+    @Autowired
     private TopicRepository topicRepository;
 
-    private List<Topic> arrayTopic = new ArrayList<>(Arrays.asList(new Topic("Spring", "Framework", "Description"), new Topic("Java", "1.8", "Core")));
+    private List<Topic> arrayTopic = new ArrayList<>(Arrays.asList(new Topic("Spring", "Framework", "Description"),
+            new Topic("Java", "1.8", "Core")));
 
     public List<Topic> getTopics(){
-        return arrayTopic;
+        List <Topic> topics = new ArrayList<>();
+        topicRepository.findAll().forEach(topics::add);
+        return topics;
     }
 
     public Topic getTopic(String id){
@@ -22,7 +27,7 @@ public class TopicService {
     }
 
     public void addTopic(Topic topic) {
-        arrayTopic.add(topic);
+        topicRepository.save(topic);
     }
 
     public void updateTopic(Topic topic, String id) {
