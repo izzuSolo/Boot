@@ -20,9 +20,9 @@ public class TopicService {
         return topics;
     }
 
-    public Optional<Topic> getTopic(String id)
+    public Topic getTopic(String id)
     {
-        return topicRepository.findById(id);
+        return topicRepository.findById(id).orElse(new Topic());
     }
 
     public void addTopic(Topic topic) {
