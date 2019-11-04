@@ -12,9 +12,9 @@ public class CourseService {
     @Autowired
     private CourseRepository corseRepository;
 
-    public List<Course> getCourses(String id){
+    public List<Course> getCourses(String topicId){
         List <Course> courses = new ArrayList<>();
-        corseRepository.findAll().forEach(courses::add);
+        corseRepository.findByTopicId(topicId).forEach(courses::add);
         return courses;
     }
 
