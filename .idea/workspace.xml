@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="eadc8b57-8328-463b-abef-32efd559bef6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/SpringBoot/learn/topic/TopicService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/SpringBoot/learn/topic/TopicController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/SpringBoot/learn/topic/TopicController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/SpringBoot/course/course/Course.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/SpringBoot/course/course/Course.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/SpringBoot/course/course/CourseRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/SpringBoot/course/course/CourseRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/SpringBoot/course/course/CourseService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/SpringBoot/course/course/CourseService.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -43,14 +44,18 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/io/SpringBoot/course" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="io.SpringBoot.learn" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/io/SpringBoot/course" />
+      <recent name="$PROJECT_DIR$/src/main/java/io/SpringBoot" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="io.SpringBoot.learn" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -65,7 +70,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Spring Boot.CoursApiApp">
     <configuration name="CoursApiApp" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="Boot" />
       <extension name="coverage">
@@ -79,8 +84,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="CourseApiApp" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="Boot" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.SpringBoot.course.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="io.SpringBoot.course.CourseApiApp" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.CourseApiApp" />
         <item itemvalue="Spring Boot.CoursApiApp" />
       </list>
     </recent_temporary>
@@ -102,6 +121,13 @@
       <workItem from="1568191986521" duration="7705000" />
       <workItem from="1568298824256" duration="1116000" />
       <workItem from="1568379530384" duration="894000" />
+      <workItem from="1568743256192" duration="78000" />
+      <workItem from="1569264309641" duration="998000" />
+      <workItem from="1569772333135" duration="3717000" />
+      <workItem from="1569785235253" duration="1582000" />
+      <workItem from="1569866590659" duration="248000" />
+      <workItem from="1569866862721" duration="3170000" />
+      <workItem from="1572892197274" duration="1794000" />
     </task>
     <servers />
   </component>
